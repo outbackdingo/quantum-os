@@ -1,7 +1,9 @@
 type: rpm-ostree
 repos: 
-  - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-%OS_VERSION%/secureblue-hardened_malloc-fedora-%OS_VERSION%.repo
+  - baseurl=https://download.copr.fedorainfracloud.org/results/firminunderscore/zen-browser/fedora-$releasever-$basearch/
+
 install:
 
   # missing upstream
   - zsh
+  - zen-browser
