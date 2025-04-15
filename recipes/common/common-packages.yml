@@ -1,6 +1,6 @@
 type: rpm-ostree
 repos: 
-  - https://download.copr.fedorainfracloud.org/results/firminunderscore/zen-browser/fedora-41-x86_64/
+  - https://copr.fedorainfracloud.org/coprs/firminunderscore/zen-browser/repo/fedora-41/firminunderscore-zen-browser-fedora-41.repo
 
 install:
 
