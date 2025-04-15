@@ -6,3 +6,4 @@ install:
 
   # missing upstream
   - zsh
+  - zen-browser
