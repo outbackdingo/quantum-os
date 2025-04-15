@@ -1,0 +1,2 @@
+modules:
+    - from-file: common/common-packages.yml
