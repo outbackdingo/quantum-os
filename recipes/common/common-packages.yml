@@ -1,8 +1,10 @@
 type: rpm-ostree
 repos: 
   - https://copr.fedorainfracloud.org/coprs/firminunderscore/zen-browser/repo/fedora-41/firminunderscore-zen-browser-fedora-41.repo
+  - https://copr.fedorainfracloud.org/coprs/jbcrawford/kanidm/repo/fedora-41/jbcrawford-kanidm-fedora-41.repo
 
 install:
 
   # missing upstream
   - zsh
+  - kanidm-clients
